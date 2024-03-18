@@ -4,7 +4,7 @@ namespace RazorPagesMovie.Models;
 
 public class Movie
 {
-    public int Id { get; set; }
+    public int Id { get; set; }  //this is the attributes for the website
     public string? Title { get; set; }
     [DataType(DataType.Date)]
     public DateTime ReleaseDate { get; set; }
